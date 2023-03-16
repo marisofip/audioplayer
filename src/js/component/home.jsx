@@ -75,7 +75,7 @@ const  setSong = (link , i) => {
 	<>
 	<div className='titulo'><h2 className='my-2 py-2'>Audio Player</h2></div>
 	<div className="container">
-	<ol> {lista.map((item, index) => (<li key={index} className="btn bg-light d-flex flex-column mb-3" onClick={()=>setSong(item.url,index)}>{item.name}</li>))}  </ol>
+	<ol> {lista.map((item, index) => (<li key={index} className="btn d-flex flex-column mb-3" id="listado" onClick={()=>setSong(item.url,index)}>{item.name}</li>))}  </ol>
 	
 		<audio  ref={audioPlayer} src="https://assets.breatheco.de/apis/sound/songs" type="audio.mp3"/>
 		<div className="controles">

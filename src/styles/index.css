@@ -1,31 +1,43 @@
 body {
     background-color: black;
+    background-image: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTU1MGE5NzYwY2MzNTBiY2M5ZWEwYjczM2QyMzRiZTUyOThjY2Q0MCZjdD1z/KzikBkhzLyVOdpZm20/giphy.gif);
+  font-family: cursive;
 }
+
+
 .titulo{
   display: flex;
     justify-content: center;
+    align-items: center;
   font-size: 60px;
   color: white;
+  background-color: rgb(245, 94, 230);
+}
+
+#listado{
+
+  background: rgb(245, 94, 230);
+  font-size: 35px;
+  margin-top: 15px;
 }
 
 .audioplayer {
     display: flex;
     justify-content: center;
       width: 700px;
-    position: absolute;
+    position: relative;
     top: 50%;
      
 }
 .controles
 { display: flex;
   justify-content: center;
+  border-radius: 5px;
 }
 .botones {
     font-size: 60px;
     border: none;
-background-color: black;
-color: white;
-border-radius: 50%;
-
-
+color: black;
+border-radius: 5px;
+background: rgb(245, 94, 230);
 }
